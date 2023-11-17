@@ -1,0 +1,263 @@
+/*About ME*/
+.about-me{
+  padding-top: 70px;
+}
+.img-profile{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  background-image: url("/bg/bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-profile img{
+  max-width: 250px;
+  display: flex;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  transition: all .5s linear;
+}
+.degree{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.degree p{
+  font-size: 20px;
+  font-weight:700;
+}
+.desc-wrapper{
+  display: flex;
+  justify-content: center;
+}
+.desc-wrapper p{
+  text-align: center;
+  padding: 10px 20px;
+  width: 85%;
+  background-color: #232D3F;
+  border-radius: 20px;
+  color: #F5F7F8;
+}
+/*Experience*/
+.exp{
+  margin-top: 60px;
+  width: auto;
+  height: auto;
+  margin: 0 20px;
+}
+.exp-title{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.exp-title p{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.exp-desc{
+  display: flex;
+  justify-content: center;
+}
+.exp-desc p{
+  text-align: center;
+  padding: 10px 20px;
+  width: 85%;
+  background-color: #232D3F;
+  border-radius: 20px;
+  color: #F5F7F8;
+}
+/*kursus online*/
+.exp-wrapper{
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.online-course{
+  background-color: #27374D;
+  padding: 20px;
+  border-radius: 20px;
+}
+.online-course p{
+  color: #F5F7F8;
+  text-align: justify;
+}
+.online-course ol li{
+  color: #F5F7F8;
+  text-align: justify;
+  margin-left: 15px;
+}
+/*workshop*/
+.workshop{
+  margin-left: 10px;
+  background-color: #27374D;
+  padding: 20px;
+  border-radius: 20px;
+}
+.workshop p{
+  color: #F5F7F8;
+  text-align: justify;
+}
+.workshop ol li{
+  color: #F5F7F8;
+  text-align: justify;
+  margin-left: 15px;
+}
+/*Gallery*/
+.gallery-title{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.gallery-title p{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.gallery-wrapper ul{
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery-wrapper ul li{
+  list-style: none;
+  padding-right: 10px;
+}
+.gallery-wrapper ul li img{
+  max-width: 400px;
+}
+/*Project*/
+.project-title{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.project-title p{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.example-project{
+  margin-left: 10px;
+  background-color: #27374D;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+.example-project ol li a{
+  color: #F5F7F8;
+  text-align: justify;
+  text-decoration: none;
+  text-align: justify;
+}
+.example-project ol li{
+  color: #F5F7F8;
+  text-align: justify;
+  margin-left: 15px;
+}
+/*Social media*/
+.sm-title{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.sm-title p{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.sm-wrapper{
+  display: flex;
+  justify-content: center;
+}
+.instagram a img{
+  width: 150px;
+  padding-right: 10px;
+}
+.instagram p{
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.github a img{
+  width: 150px;
+  padding-right: 10px;
+}
+.github p{
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.linkedIn a img{
+  width: 150px;
+  padding-right: 10px;
+}
+.linkedIn p{
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/*Rangkuman Seminar*/
+.rangkuman-seminar{
+  margin-top: 40px;
+  background-color: #27374D;
+  color: #F5F7F8;
+  padding-left: 10px;
+  margin: 20px;
+  border-radius: 20px;
+  
+}
+.rangkuman-title{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.rangkuman-title p{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.title-seminar-sesi1{
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.title-seminar-sesi2{
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+footer{
+  margin-top: 20px;
+  text-align: center;
+  height: 70px;
+  background-image: url("/bg/bg-header.jpg");
+}
+footer p{
+  padding-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  .img-profile img{
+    max-width: 150px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    transition: all .5s linear;
+  }
+  .gallery-wrapper ul li img{
+    width: 300px;
+  }
+
+}

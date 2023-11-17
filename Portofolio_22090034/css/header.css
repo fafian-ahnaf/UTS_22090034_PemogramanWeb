@@ -1,0 +1,83 @@
+.header{
+  width: 100%;
+  position: fixed;
+}
+.header-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 70px;
+  background-image: url("/bg/bg-header.jpg");
+}
+.title-name {
+  min-width: 220px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.title-name a{
+  text-decoration: none;
+  color: #45474B;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-wrapper{
+  padding-right: 20px;
+  flex-shrink: 0;
+}
+.navbar-wrapper a{
+  text-decoration: none;
+  padding: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #96B6C5;
+}
+.navbar-wrapper a:hover{
+  background-color: #fff;
+  color: #45474B;
+  border-radius: 20px;
+}
+.icon-navbar{
+  display: none;
+}
+.navbar-toggle{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 58px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: #27374D;
+}
+
+@media screen and (max-width: 850px) {
+  .navbar-wrapper{
+    display: none;    
+  }
+  .navbar-toggle a{
+    text-decoration: none;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #96B6C5;
+  }
+  .navbar-toggle a:hover{
+    width: 90%;
+    text-align: center;
+    background-color: #fff;
+    color: #27374D;
+    border-radius: 20px;
+  }
+  .icon-navbar{
+    display: block;
+    width: 40px;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+}

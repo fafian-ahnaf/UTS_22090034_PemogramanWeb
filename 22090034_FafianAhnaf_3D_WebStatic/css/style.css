@@ -1,0 +1,207 @@
+/*General*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Martian Mono, Arial, Helvetica, sans-serif;
+}
+/*Header*/
+.header-wrapper{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 100%;
+  background-color: #65451F;
+  z-index: 1000;
+}
+.header{
+  height: 40px;
+}
+.left-header{
+  display: flex;
+}
+.left-header p{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+.p1{
+  margin-left: 30px;
+  color: #C51605;
+}
+.p2{
+  color: white;
+}
+.right-header ul{
+  display: flex;
+  list-style: none;
+  margin-top: 9px;
+}
+.right-header ul li{
+  margin-right: 20px;
+}
+.right-header ul li a{
+  color: white;
+  text-decoration: none;
+}
+.right-header ul li a:hover{
+  color: #C51605 ;
+}
+
+.kronologi-id, .tujuan-id, .gallery-id{
+  height: 20px;
+}
+
+/*Latar Belakang*/
+.main1{
+  background-image: url("../image/img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: fit-content;
+  margin-top: 20px;
+}
+.isi-main .title{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.penjelasan{
+  padding-top: 10p;
+  background-color: white;
+  background: rgba(255, 255, 255, 0.4);
+  font-size: 20;
+  font-weight: bold;
+  padding: 5px;
+}
+/*Kronologi*/
+.main2{
+  background-image: url("../image/img2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: fit-content;
+  padding-bottom: 20px;
+  margin-top: 25px;
+}
+.penjelasan1, .penjelasan2{
+  background: rgba(255, 255, 255, 0.3);
+}
+/*Tujuan*/
+.main3{
+  background-image: url("../image/img3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: fit-content;
+  padding-bottom: 20px;
+  margin-top: 25px;
+}
+.isi-tujuan{
+  padding-left: 41px;
+}
+.title p{
+  width: fit-content;
+  background-color: white;
+  background: rgba(255, 255, 255, 0.3);
+}
+/*Tokoh terlibat*/
+.table, tr, th, td{
+  border: 2px solid black;
+}
+
+th{
+  padding: 10px;
+}
+.tokoh-img{
+  height: 200px;
+  padding: 10px;
+}
+.nama-tokoh{
+  text-align: center;
+  font-weight: bold;
+  width: 250px;
+}
+.deskripsi{
+  text-align: center;
+}
+/*Footer*/
+.footer{
+  padding-top: 20px;
+  margin-top: 20px;
+  background-color: #65451F;
+  height: 100px;
+}
+.footer a{
+  margin-top: 20px;
+  padding: 20px;
+}
+
+/*Form*/
+.bg-form{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+form{
+  width: 50%;
+  background-color: #80B3FF;
+  border-radius: 40px;
+}
+.form-nama{   
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.nama{
+  padding-right: 10px;
+}
+#nama::placeholder{
+  padding-left: 10px;
+}
+#nama{
+  border-radius: 20px;
+  height: 20px;
+}
+.gender{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.gender input{
+  margin-right: 5px;
+}
+.gender label{
+  margin-right: 15px;
+}
+.pilihan{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.pilihan input{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.pilihan label{
+  padding-bottom: 10px;
+}
+.submit-btn{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.submit{
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #232D3F;
+  color: white;
+  font-weight: bold;
+}
